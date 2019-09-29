@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Регистрация</h1>
+        <form action="#" method="post">
+            <div class="form-field">
+                <label for="name">Имя:</label>
+                <div class="field">
+                    <input type="text" id="name" name="name" placeholder="Введите имя">
+                    <p class="error-message"></p>
+                </div>
+            </div>
+            <div class="form-field">
+                <label for="surname">Фамилия:</label>
+                <div class="field">
+                    <input type="text" id="surname" name="surname" placeholder="Введите фамилию">
+                    <p class="error-message"></p>
+                </div>   
+            </div>
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <div class="field">
+                    <input type="text" id="email" name="email" placeholder="Введите Email">
+                    <p class="error-message"></p>   
+                </div>
+            </div>
+            <div class="form-field">
+                <label for="password">Пароль:</label>
+                <div class="field">
+                    <input type="password" id="password" name="password" placeholder="Введите пароль">
+                    <p class="error-message"></p>
+                </div>
+            </div>
+            <div class="form-field">
+                <label for="repeat-password">Подтверждение пароля:</label>
+                <div class="field">
+                    <input type="password" id="repeat-password" name="repeat-password" placeholder="Повторите пароль">
+                    <p class="error-message"></p>
+                </div>
+            </div>
+            <div class="form-field">
+                <label for="date">Дата рождения:</label>
+                <div class="field">
+                    <input type="text" id="date" name="date" placeholder="дд.мм.гггг">
+                    <p class="error-message"></p> 
+                </div>
+            </div>
+            <input type="submit" name="submit" value="Отправить">
+        </form>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
